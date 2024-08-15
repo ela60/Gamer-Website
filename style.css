@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navbar design starts here */
+.nav-container{
+    box-shadow: 0 4px 4px rgba(0,0,0,0.1);
+}
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    max-width: 100%;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 900;
+    margin-left: 150px;
+}
+.nav-right{
+    display: flex;
+    margin-right: 150px;
+}
+.nav-btn{
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    margin-right: 18px;
+
+}
+.nav-btn-follow{
+    background-color: #acaaaf7a;
+    padding: 7px 15px;
+    border-radius: 7px;
+    margin-right: 0;
+}
+.icon-btn{
+    padding: 5px;
+    font-size: 22px;
+}
