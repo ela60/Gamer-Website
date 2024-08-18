@@ -108,11 +108,9 @@
 /* gammer class style */
 .gammer{
     display: flex;
-    margin-right: 10px;
+   text-align: right;
 }
-.gammer-img{
-   
-}
+
 .gammer-written{
    margin-top: 40px;
    margin-right: 130px;
@@ -236,6 +234,7 @@
 }
 .category-child img{
     width: 40px;
+   
 }
 
 
